@@ -1,0 +1,18 @@
+.film__item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.film__item:hover {
+  cursor: pointer;
+}
+
+.film__image-container {
+  min-height: 400px;
+}
+
+.favorite {
+  border: 1px solid #fa8072;
+}
