@@ -20,9 +20,9 @@ const Header = () => {
     <>
     <ul className='header'>
       <li>
-        <NavLink onClick={handleClick} to={'/'}>Главная</NavLink>
+        <NavLink className='navLink' onClick={handleClick} to={'/'}>Главная</NavLink>
       </li>
-        <NavLink to={'/favorites'}>Избранное</NavLink>
+        <NavLink className='navLink' to={'/favorites'}>Избранное</NavLink>
     </ul>
     <Outlet />
     </>
